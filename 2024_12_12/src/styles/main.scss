@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'home';
+@import 'post';
+@import 'categories';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 20px 0;
+}

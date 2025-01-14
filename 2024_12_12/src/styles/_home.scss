@@ -1,0 +1,23 @@
+@import 'variables';
+.home {
+  h2 {
+    color: $text-color;
+    margin-bottom: 20px;
+  }
+
+  .post-list {
+    display: flex;
+    flex-direction: column;
+
+    .post-item {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+}
